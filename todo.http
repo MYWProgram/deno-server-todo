@@ -1,0 +1,27 @@
+### 获取Todo列表
+GET http://localhost:3000/todos HTTP/1.1
+
+### 获取Todo详情
+GET http://localhost:3000/todos/2c089692-b50e-4fdf-b95f-5ebb753900de
+
+### 新增Todo
+POST http://localhost:3000/todos HTTP/1.1
+content-type: application/json
+
+{
+  "userId": 5,
+  "title": "test"
+}
+
+### 更新Todo
+PUT http://localhost:3000/todos/66f271c7-2001-4343-9c1a-b77254f75af0 HTTP/1.1
+content-type: application/json
+
+{
+  "userId": 1,
+  "title": "Eat dinner",
+  "completed": true
+}
+
+### 删除Todo
+DELETE  http://localhost:3000/todos/7de59ad0-8b76-4b10-93ff-dc6d6094805b HTTP/1.1
