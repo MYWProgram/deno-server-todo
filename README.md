@@ -1,10 +1,12 @@
 # deno-server-todo
 
+[![Deno](https://img.shields.io/badge/-Deno-%23F05032?style=for-the-badge&logo=Deno&logoColor=%23161c29&color=%23f8f9fa)](https://github.com/MYWProgram/deno-server-todo)
+
 使用 deno + oak(基于 node.js koa) 搭建的后台 Todo 管理工具，使用文件数据库存储；具有增删改查等基本功能
 
-## 版本
+## SDK Version
 
-> deno < 1.2.0
+[![Deno](https://img.shields.io/badge/Deno-%3C1.2.0-orange)](https://github.com/MYWProgram/deno-server-todo)
 
 ## 使用
 
